@@ -1,0 +1,46 @@
+.book-preview {
+  width: 350px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+
+
+  .book-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+
+    .book-title {
+      position: relative;
+      font-size: 1.3rem;
+
+      // width: 150px;
+      input {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        transform: translate(50%,50%);
+      }
+    }
+
+    .book-author {
+      font-size: 1.2rem;
+      width: 150px;
+      color: #558D8A;
+    }
+
+    .description {
+      height: 200px;
+      overflow-y: scroll;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+    }
+
+
+  }
+
+
+}
